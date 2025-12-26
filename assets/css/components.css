@@ -16,6 +16,12 @@
   background: var(--color-accent-hover);
   transform: translateY(-2px);
 }
+.hero .btn {
+  margin-top: var(--space-xl);
+}
+.hero-content {
+  max-width: 520px;
+}
 
 /* --------------------------------------------------------------------------
    7. About Section
