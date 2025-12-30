@@ -17,8 +17,12 @@
   transform: translateY(-2px);
 }
 .hero .btn {
-  margin-top: var(--space-xl);
+  margin-block: var(--space-lg);
 }
+.hero .btn {
+  align-self: flex-start;
+}
+
 .hero-content {
   max-width: 520px;
 }

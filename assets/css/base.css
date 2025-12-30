@@ -54,6 +54,10 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
 }
+:root {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 /*
  * RESPONSIVE IMAGES
