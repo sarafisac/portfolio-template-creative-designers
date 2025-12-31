@@ -16,6 +16,10 @@
   margin-bottom: var(--space-xl);
   text-align: center;
 }
+.section-gradient {
+  background: var(--gradient-light);
+  color: var(--color-text-dark);
+}
 
 /* --------------------------------------------------------------------------
    5. Hero Section

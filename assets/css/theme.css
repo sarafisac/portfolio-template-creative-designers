@@ -98,14 +98,19 @@
 	 * Dark theme with indigo accent. Limited palette = cohesive design.
 	 * Semantic naming (bg, text, accent) makes colors self-documenting.
 	 */
-  --color-bg: #e4e6c3; /* Near-black background */
-  --color-bg-alt: #0d0d0d; /* Slightly lighter for depth/sections */
-  --color-text: #222; /* Off-white for readability (not pure white) */
-  --color-text-muted: #e4e6c3; /* Subdued text for secondary content */
-  --color-accent: #83810c; /* Indigo — primary brand color */
-  --color-accent-hover: #b3bb43; /* Lighter indigo for hover states */
 
+  /* Colores base */
+  --color-bg-light: #fbf7ef;
+  --color-bg-dark: #3a251d;
 
+  --color-text-dark: #1e1e1e;
+  --color-text-light: #f5f3ee;
+
+  --color-accent: #8a8d1c;
+
+  /* Degradado sutil */
+  --gradient-light: linear-gradient(180deg, #fbf4ec 0%, #f6efd9 100%);
+  --gradient-dark: linear-gradient(180deg, #2e2623 0%, #3b2f2c 100%);
 
   /*
 	 * ANIMATION TOKENS

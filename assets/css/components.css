@@ -31,7 +31,7 @@
    7. About Section
    -------------------------------------------------------------------------- */
 .about {
-  background: var(--color-bg-alt);
+  background: var(--color-bg-dark);
 }
 
 .about-grid {
@@ -48,7 +48,7 @@
 
 .about-text p {
   margin-bottom: var(--space-md);
-  color: var(--color-text-muted);
+  color: var(--color-text-light);
 }
 
 .skills-grid {
