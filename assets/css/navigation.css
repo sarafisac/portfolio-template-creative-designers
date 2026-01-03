@@ -40,3 +40,15 @@
 .nav-links a:focus {
   color: var(--color-accent);
 }
+.theme-toggle {
+  background: none;
+  border: none;
+  color: var(--color-text-light);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.theme-toggle:hover,
+.theme-toggle:focus {
+  color: var(--color-accent);
+}

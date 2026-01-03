@@ -374,3 +374,14 @@ window.cleanupScrollObservers = () => {
   staggerObserver.disconnect();
   console.log("🧹 Observers cleaned up");
 };
+
+const toggle = document.getElementById("theme-toggle");
+const root = document.documentElement;
+
+toggle.addEventListener("click", () => {
+  if (root.getAttribute("data-theme") === "dark") {
+    root.removeAttribute("data-theme");
+  } else {
+    root.setAttribute("data-theme", "dark");
+  }
+});

@@ -26,6 +26,19 @@
 .hero-content {
   max-width: 520px;
 }
+a:hover {
+  color: var(--color-accent);
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
 
 /* --------------------------------------------------------------------------
    7. About Section
@@ -176,7 +189,7 @@
    9. Contact Section
    -------------------------------------------------------------------------- */
 .contact {
-  background: var(--color-bg-alt);
+  background: var(--gradient-light);
   text-align: center;
 }
 

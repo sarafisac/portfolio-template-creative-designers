@@ -146,3 +146,45 @@ strong {
 .section-dark strong {
   color: var(--color-accent);
 }
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
+a:hover {
+  color: var(--color-accent);
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+/* --------------------------------------------------------------------------
+   THEME TRANSITIONS
+   -------------------------------------------------------------------------- */
+
+body,
+.hero-bg,
+.section,
+.section-gradient,
+.nav,
+.footer {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+.nav-links a,
+.theme-toggle {
+  transition: color 0.4s ease;
+}
+button,
+.btn {
+  transition: background-color 0.4s ease, color 0.4s ease, transform 0.2s ease;
+}
