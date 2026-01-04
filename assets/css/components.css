@@ -58,6 +58,9 @@ button:hover {
     align-items: start;
   }
 }
+.about .section-title {
+  color: var(--color-text-light);
+}
 
 .about-text p {
   margin-bottom: var(--space-md);
@@ -71,7 +74,7 @@ button:hover {
 }
 
 .skill-card {
-  background: var(--color-bg);
+  background: var(--gradient-light);
   padding: var(--space-md);
   border-radius: 12px;
   text-align: center;
