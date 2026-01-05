@@ -385,3 +385,10 @@ toggle.addEventListener("click", () => {
     root.setAttribute("data-theme", "dark");
   }
 });
+const burger = document.querySelector(".nav-burger");
+const navLinks = document.querySelector(".nav-links");
+
+burger.addEventListener("click", () => {
+  const isOpen = navLinks.classList.toggle("is-open");
+  burger.setAttribute("aria-expanded", isOpen);
+});

@@ -237,6 +237,26 @@
     grid-template-columns: 1.1fr 0.9fr;
   }
 }
+
+/* =========================
+   HERO – Mobile adjustments
+========================= */
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding-top: calc(var(--space-xl) + 4rem);
+    padding-inline: var(--space-md);
+    gap: var(--space-lg);
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    gap: var(--space-md);
+  }
+}
+
 /* --------------------------------------------------------------------------
    404 PAGE
    -------------------------------------------------------------------------- */

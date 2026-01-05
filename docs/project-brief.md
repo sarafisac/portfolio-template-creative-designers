@@ -1,7 +1,7 @@
 # Project Brief
 
 **Student:** [Sara Fisac]  
-**Handle:** @[your-github-username]  
+**Handle:** @[sarafisac]  
 **Course:** Web Design 2025 · Fall  
 **Date:** [Enero de 2026]
 
@@ -71,7 +71,7 @@ Este proyecto me permite presentar mi identidad visual de forma coherente y prof
 
 <!-- Where will your content come from? -->
 
-El contenido es original, basado en mis propios proyectos de ilustración y diseño gráfico. La selección de imágenes (de proyectos y entregas de otros cursos) y los textos están pensados específicamente para este portfolio y adaptados al formato web.
+El contenido es original, basado en mis propios proyectos de ilustración y diseño gráfico. La selección de imágenes (de proyectos y entregas de otros cursos) y los textos están pensados específicamente para este portfolio y adaptados al formato web. Las imágenes están subidas a Imagekit.io y se implementan en el código mediante el enlace que proporciona la pataforma para cada imagen.
 
 ### Multilingual Considerations
 
@@ -129,11 +129,11 @@ Interfaces minimalistas con animaciones suaves y tipografía protagonista
 
 ### Final Project Goals
 
-- [ ] Fully responsive across devices
+- [✔] Fully responsive across devices
 - [ ] Meets WCAG 2.1 AA standards
-- [ ] Fast loading performance
+- [✔] Fast loading performance
 - [ ] Complete content
-- [ ] Polished visual design
+- [✔] Polished visual design
 
 ---
 
@@ -145,7 +145,7 @@ Me motiva poder unir diseño gráfico, ilustración y desarrollo web en una sola
 
 ### What challenges do you anticipate?
 
-El mayor reto ha sido equilibrar estética y accesibilidad, especialmente al trabajar con fondos claros y oscuros, degradados y modo oscuro. También tuve algunos problemas a mitad del proyecto (uno de los commits tiene de mensaje "commit prueba despues de error") porque no sé qué pasó, pero se solaparon los cambios del commit anterior con los nuevos y se me duplicaron varias cosas. Lo intenté solucionar como pude y aún no entiendo muy bien qué fue lo que pasó exactamente, pero me asusté un poco porque al principio no me dejaba commitar...
+El mayor reto ha sido equilibrar estética y accesibilidad, especialmente al trabajar con fondos claros y oscuros, degradados y modo oscuro. También tuve algunos problemas a mitad del proyecto (uno de los commits tiene de mensaje "commit prueba despues de error") porque no sé qué pasó, pero se solaparon los cambios del commit anterior con los nuevos y se me duplicaron varias cosas. Lo intenté solucionar como pude y aún no entiendo muy bien qué fue lo que pasó exactamente, pero me asusté un poco porque al principio no me dejaba commitar...Tuve problemas también con la sección del hero y la navegación para hacerlo responsive, pero tras varios intentos conseguí que funcionase (esta parte está más desarrollada en el Read.me)
 
 ### How does this project connect to your learning goals?
 

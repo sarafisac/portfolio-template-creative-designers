@@ -102,6 +102,25 @@ img {
   display: block;
 }
 
+.project-image {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.project-image img {
+  width: 100%;
+  max-width: 640px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 4px;
+}
+@media (max-width: 768px) {
+  .project-image img {
+    max-width: 100%;
+  }
+}
+
 /*
  * LINK RESET
  *
