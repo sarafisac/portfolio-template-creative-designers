@@ -19,11 +19,13 @@ A partir de ahí, comencé a adaptar el diseño a mi propio proyecto. Uno de los
 
 En el hero y en algunas secciones clave decidí utilizar un degradado muy sutil, inspirado en referencias editoriales, para aportar profundidad sin perder limpieza visual. Este degradado está integrado dentro del sistema de variables, de forma que se mantiene coherente con el resto del diseño y puede adaptarse también al modo oscuro.
 
+Por último, decidí inluir un favicon para personalizar del todo la web, así como para recordar y refrescar el método y la forma de hacerlo
+
 # Tipografía y jerarquía
 
 He trabajado con una diferenciación clara entre una tipografía serif de tipo display (Playfair Display) para el hero y los títulos de sección, y una tipografía sans-serif para el texto largo y el contenido funcional. Esta decisión busca reforzar el carácter editorial del portfolio sin comprometer la legibilidad.
 Los tamaños tipográficos se han mantenido a lo largo del proyecto mediante una escala fluida con clamp(), lo que permite que el texto se adapte de forma natural a distintos tamaños de pantalla. De este modo, he podido cambiar la personalidad de los títulos sin alterar la estructura ni el equilibrio general del diseño.
-También se ha cuidado especialmente la jerarquía de encabezados, utilizando un solo <h1> por página y manteniendo una estructura lógica que sea comprensible tanto visualmente como para tecnologías de asistencia.
+También se ha cuidado especialmente la jerarquía de encabezados, utilizando un solo h1 por página y manteniendo una estructura lógica que sea comprensible tanto visualmente como para tecnologías de asistencia.
 
 # Layout y diseño responsive
 
