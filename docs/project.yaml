@@ -2,27 +2,33 @@
 # This file will be used to generate your entry in the course showroom
 
 # Basic information
-handle: your-github-username
-name: Your Full Name
-email: your-email@udit.es
+handle: sarafisac
+name: Sara Fisac Hernando
+email: sara.fisac@alumnos.udit.es
 
 # URLs (will be auto-generated if you follow naming conventions)
-github_url: https://github.com/your-username
-project_url: https://your-username.github.io/your-project-repo
-repository_url: https://github.com/your-username/your-project-repo
+github_url: https://github.com/sarafisac
+project_url: https://sarafisac.github.io/portfolio-template-creative-designers/
+repository_url: https://github.com/sarafisac/portfolio-template-creative-designers
 
 # Project details
 title:
-  es: Título de tu Proyecto en Español
-  en: Your Project Title in English
+  es: Portfolio personal de Sara Fisac
+  en: Sara Fisac Personal Portfolio
 
 abstract:
   es: |
-    Una descripción concisa de tu proyecto web en español.
-    Explica qué construyes, para quién y por qué es importante.
+    Portfolio web personal diseñado para presentar mi trabajo en diseño gráfico
+    e ilustración de forma clara, accesible y visualmente coherente.
+    El proyecto pone el foco en un diseño responsive mobile-first, una jerarquía
+    tipográfica cuidada y una experiencia de usuario accesible, incorporando
+    modo oscuro, animaciones sutiles y buenas prácticas de HTML y CSS.
   en: |
-    A concise description of your web project in English.
-    Explain what you're building, for whom, and why it matters.
+    Personal web portfolio designed to showcase my work in graphic design
+    and illustration in a clear, accessible and visually coherent way.
+    The project focuses on a mobile-first responsive approach, careful
+    typographic hierarchy and accessible user experience, including dark
+    mode, subtle animations and modern HTML and CSS best practices.
 
 # Technical tags (choose relevant ones)
 tags:
@@ -30,21 +36,17 @@ tags:
   - css3
   - responsive-design
   - accessibility
-  # Add more as relevant: javascript, sass, performance, etc.
+  - mobile-first
+  - css-animations
+  - dark-mode
 
 # Learning objectives you're focusing on
 learning_focus:
   - semantic-html
   - mobile-first-design
   - web-accessibility
-  # Add more as you progress
-
-# Week tracking (update as you go)
-milestones:
-  week_1_setup: false
-  week_2_brief: false
-  week_4_metadata: false
-  week_5_showcase: false
+  - css-layouts
+  - design-systems
 
 # Optional: link to your project brief
 brief_url: project-brief.md
